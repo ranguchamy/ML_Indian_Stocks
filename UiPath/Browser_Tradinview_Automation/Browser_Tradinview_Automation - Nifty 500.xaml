@@ -1,0 +1,183 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Browser_Tradinview_Automation" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="791.2,3084.8" sap2010:WorkflowViewState.IdRef="Browser_Tradinview_Automation_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Browser_Tradinview_Automation_Sq" sap:VirtualizedContainerService.HintSize="801.6,3020" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Firefox: MRF 102089.25 ▲ +0.19% Unnamed" sap:VirtualizedContainerService.HintSize="739.2,2908" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="Simulate" ScopeGuid="d93c1229-a59b-4341-b8bc-4cd879824ecd" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="705.6,2691.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="643.2,2576" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="580.8,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][d(shift)]f[u(shift)][u(hk)]" Version="V3" />
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="580.8,368.8" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,290.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" Shortcuts="[d(hk)]1[u(hk)][d(hk)]d[u(hk)][d(hk)][k(enter)][u(hk)]" Version="V3" />
+                  </Sequence>
+                </ui:CommentOut.Body>
+              </ui:CommentOut>
+              <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="580.8,1833.6" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_2" NumberOfTimes="2" StartAt="1">
+                <ui:RepeatNumberOfTimesX.Body>
+                  <ActivityAction x:TypeArguments="x:Int32">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="547.2,1674.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="484.8,932" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_1" NumberOfTimes="520" StartAt="1">
+                        <ui:RepeatNumberOfTimesX.Body>
+                          <ActivityAction x:TypeArguments="x:Int32">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,772.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][d(alt)d(ctrl)]s[u(ctrl)u(alt)][u(hk)]" Version="V3" />
+                              <Delay Duration="00:00:04" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(down)][u(hk)]" Version="V3" />
+                              <Delay Duration="00:00:06" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                            </Sequence>
+                          </ActivityAction>
+                        </ui:RepeatNumberOfTimesX.Body>
+                      </ui:RepeatNumberOfTimesX>
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="484.8,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)]1[u(hk)][d(hk)]5[u(hk)][d(hk)][k(enter)][u(hk)]" Version="V3" />
+                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="484.8,368.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                        <ui:CommentOut.Body>
+                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,290.4" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" Shortcuts="[d(hk)][d(alt)]r[u(alt)][u(hk)]" Version="V3" />
+                          </Sequence>
+                        </ui:CommentOut.Body>
+                      </ui:CommentOut>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:RepeatNumberOfTimesX.Body>
+              </ui:RepeatNumberOfTimesX>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Firefox" IconBase64="AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAqBAAAJ4EAADAwAAAAQAgAOcOAABGFQAAKAAAABAAAAAgAAAAAQAgAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiFxOQIhYS7yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFhLvIhgUgAAAAAAiFhSAIhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxOQIhYS7yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT7yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP///////////+Qi4n/IhcT/yIXE//V09P///////////9LQj//IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT////////////kIuJ/yIXE/8iFxP/dW5r////////////rKin/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE////////////5CLif8iFxP/IhcT/z00MP///////////+Ti4f8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP///////////+Qi4n/IhcT/yIXE/8iFxP/yMXE////////////WVFO/yIXE/8iFxP/IhcT/yIXE/+Qi4n/kIuJ////////////kIuJ/zAmIv91bmv/WVFO/3Vua////////////6yop/8iFxP/IhcT/yIXE/8iFxP//////////////////////5CLif+DfXr//////+Ti4f89NDD////////////k4uH/IhcT/yIXE/8iFxP/IhcT//////////////////////+Qi4n/TEM///Hx8P+sqKb/IhcT/7q2tf///////////2dgXf8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFhLvIhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxPvIhcSjyIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhYSgAAAAAAiFhJ/IhYT7yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFhPvIhcUjwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAAAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAYE2AhFhLPIhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yEXE78iGBSAIBAQEAAAAAAAAAAAAAAAACAYECAhFxLfIhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxLfIBgQIAAAAAAgEBAQIRcS3yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxLfAAAAACIWFIAiFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8jGBNfIRcTvyIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXEs8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT////////////////////////////IhcT/yIXE/8iFxP/IhcT/yIXE//V09P///////////////////////////9LQj//IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP///////////////////////////8iFxP/IhcT/yIXE/8iFxP/IhcT/3Vua////////////////////////////6yop/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE////////////////////////////yIXE/8iFxP/IhcT/yIXE/8iFxP/PTQw////////////////////////////5OLh/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT////////////////////////////IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/yMXE////////////////////////////WVFO/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP///////////////////////////8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/91bmv///////////////////////////+sqKf/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE////////////////////////////yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/z00MP///////////////////////////+Ti4f8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT////////////////////////////IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/7q2tf///////////////////////////2dgXf8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP///////////////////////////8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/Z19d////////////////////////////ura1/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE////////////////////////////yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/4+Lh////////////////////////////PjQw/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/////////////////////////////////////////////////IhcT/yIXE/8+NDD/1dPT///////HxcT/PjQw/yIXE/+sqKb///////////////////////////91bmv/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/////////////////////////////////////////////////8iFxP/IhcT/8jFxP/////////////////W1NP/IhcT/1lRTv///////////////////////////8jFxP8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/////////////////////////////////////////////////yIXE/8iFxP///////////////////////////8iFxP/IhcT/+Pi4f///////////////////////////z40MP8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/////////////////////////////////////////////////IhcT/yIXE//V09P/////////////////yMXE/yIXE/8iFxP/rKim////////////////////////////dW5r/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/////////////////////////////////////////////////8iFxP/IhcT/z00MP/IxcT//////9XT0/89NDD/IhcT/yIXE/9LQj/////////////////////////////W1NP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIWFM8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8hFxO/IBUTYCIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIWEoAAAAAAIRcT3yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxPfIBAQEAAAAAAgGBAgIRcT3yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT3yAYECAAAAAAAAAAAAAAAAAgEBAQIhYSfyMXE78iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcT/yIXE/8iFxP/IhcUzyMVE18AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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" InformativeScreenshot="ddcbe7eca614b004f54f93173db9a741.png" Selector="&lt;html app='firefox.exe' title='MRF 102089.25 ▲ +0.19% Unnamed' /&gt;" Title="MRF 102089.25 ▲ +0.19% Unnamed" Url="https://www.tradingview.com/chart/gD1LGgPr/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

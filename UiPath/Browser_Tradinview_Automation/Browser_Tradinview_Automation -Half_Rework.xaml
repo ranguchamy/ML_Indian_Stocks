@@ -1,0 +1,142 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Browser_Tradinview_Automation" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="693.6,1774.4" sap2010:WorkflowViewState.IdRef="Browser_Tradinview_Automation_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Browser_Tradinview_Automation_Sq" sap:VirtualizedContainerService.HintSize="704,1709.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: NIFTY 18348.00 ▲ +0.18% NiftyRaja" sap:VirtualizedContainerService.HintSize="641.6,1597.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="6f5a97e9-18c4-49dc-9e92-c37ed27ebb6b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="608,1380.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="545.6,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][d(shift)]f[u(shift)][u(hk)]" Version="V3" />
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="545.6,1047.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:RepeatNumberOfTimesX DisplayName="Repeat Number of Times" sap:VirtualizedContainerService.HintSize="483.2,932" sap2010:WorkflowViewState.IdRef="RepeatNumberOfTimesX_1" NumberOfTimes="296" StartAt="1">
+                <ui:RepeatNumberOfTimesX.Body>
+                  <ActivityAction x:TypeArguments="x:Int32">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentItem" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,772.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][d(alt)d(ctrl)]s[u(ctrl)u(alt)][u(hk)]" Version="V3" />
+                      <Delay Duration="00:00:04" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="387.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(down)][u(hk)]" Version="V3" />
+                      <Delay Duration="00:00:06" sap:VirtualizedContainerService.HintSize="387.2,90.4" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                    </Sequence>
+                  </ActivityAction>
+                </ui:RepeatNumberOfTimesX.Body>
+              </ui:RepeatNumberOfTimesX>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="fad6122892f194dc208903de57f5ebb1.jpg" Selector="&lt;html app='chrome.exe' title='NIFTY 18348.00 ▲ +0.18% NiftyRaja' /&gt;" Title="NIFTY 18348.00 ▲ +0.18% NiftyRaja" Url="https://in.tradingview.com/chart/IMU1rIl5/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
